@@ -2,3 +2,7 @@ akli@kali:/opt/rtl_fl2k_433/build$ sudo cmake ..
 CMake Error at CMakeLists.txt:6 (target_include_directories):
   Cannot specify include directories for target "rtl_fl2k_433" which is not
   built by this project.
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Note: The error makes a reference to this line(6) from CmakeLists.txt:
+target_include_directories(rtl_fl2k_433 PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)

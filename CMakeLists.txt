@@ -4,5 +4,5 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 project(rtl_fl2k_433 VERSION 1.0)
 target_include_directories(rtl_fl2k_433 PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
-add_executable(rtl_fl2k_433 rtl_fl2k_433l.cpp) 
+add_executable(rtl_fl2k_433 rtl_fl2k_433.cpp) 
 file(GLOB_RECURSE SRC_FILES src/*.cpp)

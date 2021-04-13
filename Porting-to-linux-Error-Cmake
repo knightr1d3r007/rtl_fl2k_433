@@ -1,0 +1,4 @@
+akli@kali:/opt/rtl_fl2k_433/build$ sudo cmake ..
+CMake Error at CMakeLists.txt:6 (target_include_directories):
+  Cannot specify include directories for target "rtl_fl2k_433" which is not
+  built by this project.
